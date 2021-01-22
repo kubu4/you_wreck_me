@@ -24,16 +24,20 @@
 
 - WHEN SPLASH POTENTIAL EXISTS
 
-  - Safety googles
-  - Lab Coat
+    - Safety googles
+    - Lab Coat
 
 <em>**Waste Disposal:**</em>
-- Liquid Waste:
-  - Transfer liquid waste to labeled container designated for RNAzol waste.
-- Solid Waste:
-  - Tubes/tip/gloves with residual RNAzol should be stored in chemical fume hood for no less than 24hrs and then disposed in regular trash.
 
-<em>**Prepared by:**</em> Sam White, 20161024
+- Liquid Waste:
+    - Transfer liquid waste to labeled container designated for RNAzol waste.
+- Solid Waste:
+    - Tubes/tip/gloves with residual RNAzol should be stored in chemical fume hood for no less than 24hrs and then disposed in regular trash.
+
+<em>**Prepared by:**</em>
+
+- Name: Sam White
+- Date: 20161024
 
 ---
 
