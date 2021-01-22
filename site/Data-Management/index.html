@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Data Management - My Docs</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">My Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Welcome to MkDocs</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Alarm-Information/" class="nav-link">Alarm Information</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../COVID-Health-and-Safety-Plan/" class="nav-link">COVID Health and Safety Plan</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Chemical-Standard-Operating-Protocols-%28SOP%29/" class="nav-link">Chemical Standard Operating Protocols (SOP)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Code-of-Conduct/" class="nav-link">Code of Conduct</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Computing-Hardware/" class="nav-link">Roberts Lab Computing</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../DEI-Resources/" class="nav-link">DEI Resources</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Data Management</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Digital-Media/" class="nav-link">Digital Media</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Environment-and-Expectations/" class="nav-link">Environment and Expectations</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Experiment-Database/" class="nav-link">Experiment Database</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../External-Communication-%26-Funding/" class="nav-link">External Communication & Funding</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Genomic-Resources/" class="nav-link">Genomic Resources</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Graduate-Research-Plan/" class="nav-link">Graduate Research Plan</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Home/" class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Lab-Communication/" class="nav-link">Lab Communication</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Lab-Inventory/" class="nav-link">Lab Inventory</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Lab-Notebooks/" class="nav-link">Lab Notebooks</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Lab-Protocols/" class="nav-link">Lab Protocols</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Lab-Safety/" class="nav-link">Roberts Lab Safety</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Lab-Software/" class="nav-link">Lab Software</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Onboarding/" class="nav-link">Onboarding</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Pubathon/" class="nav-link">Pub-a-thon 2020</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Purchasing-%26-Reimbursement/" class="nav-link">SAFS Purchasing</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Undergraduate-contract/" class="nav-link">Undergraduate contract</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../DEI-Resources/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Digital-Media/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#metadata" class="nav-link">Metadata</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#data-quality-standards" class="nav-link">Data Quality Standards.</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#backup-and-storage" class="nav-link">Backup and Storage</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#data-on-gannet-is-backed-up-in-the-following-ways" class="nav-link">Data on Gannet is backed up in the following ways:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#daily-data-on-gannet" class="nav-link">Daily Data on Gannet</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#ngs-data-management-plan" class="nav-link">NGS Data Management Plan</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#proteomics-data-management-plan" class="nav-link">Proteomics Data Management Plan</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#histology-data-management-plan" class="nav-link">Histology Data Management Plan</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#data-archiving" class="nav-link">Data Archiving</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#options-include" class="nav-link">Options include</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#easy-file-upload-for-collaborators" class="nav-link">Easy file upload for Collaborators</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>This page is intended to document all aspects of data management, from the day-to-day, formal NGS and proteomics plans, and general archiving options. Inspiration for this has been provided by Tim Essington and Gordon Holtgrieve who have developed similar documentation.</p>
+<p>Data must be 1) adequately described via metadata, 2) managed for data quality, 3) backed up in a secure manner, and 4) archived in an easily reproducible format.</p>
+<h1 id="metadata">Metadata</h1>
+<p>All research data must be accompanied with a thorough description of that data from the beginning of the work. Metadata describes information about a dataset, such that a dataset can be understood, reused, and integrated with other datasets. Information described in a metadata record includes where the data were collected, who is responsible for the dataset, why the dataset was created, and how the data are organized.   </p>
+<h1 id="data-quality-standards">Data Quality Standards.</h1>
+<p>Students must take care that protocols and methods are employed to ensure that data are properly collected, handled, processed, used, and maintained, and that this process is documented in the metadata.</p>
+<h1 id="backup-and-storage">Backup and Storage</h1>
+<p>Primary should be stored in several locations with canonical versions on Gannet (see below).</p>
+<p>Data, including intermediate analysis, needs to have a url. This most often means it will live on a Network Attached Storage Device (NAS; aka a server).</p>
+<p>Gannet is a Synology RS3618xs NAS :</p>
+<ul>
+<li>RS3618xs uses 16TB HDDs (n = 12)</li>
+</ul>
+<h2 id="data-on-gannet-is-backed-up-in-the-following-ways">Data on Gannet is backed up in the following ways:</h2>
+<ul>
+<li>
+<h4 id="synology-hybrid-raid">Synology Hybrid RAID</h4>
+<ul>
+<li>Mirrors data across HDDs, which reduces total storage capacity by 50%</li>
+<li>Allows for up to two concurrent HDD failures before data loss occurs</li>
+</ul>
+</li>
+<li>
+<h4 id="gannetweb-folder">Gannet/web folder</h4>
+<ul>
+<li>One-way sync from Gannet to <a href="https://drive.google.com/open?id=1l0jc1Pj7gldNJRrfrM_Ld-T0it5LFyJG">UW Google Drive</a> via the Synology Cloud Sync app.</li>
+<li>Backup frequency: Daily</li>
+<li>Access: Public (read-only)</li>
+</ul>
+</li>
+</ul>
+<h2 id="daily-data-on-gannet">Daily Data on Gannet</h2>
+<p>Using the Gannet NAS to store your data:</p>
+<ol>
+<li>Ask Steven or Sam to generate a user account for you. A folder will be created for you in: <code>gannet/web/</code> Ask Steven/Sam for the name of the folder, as well as your username and password.</li>
+<li>Upload data to your Gannet web folder:<ol>
+<li>Navigate to <a href="http://gannet.fish.washington.edu/">http://gannet.fish.washington.edu/</a></li>
+<li>Click on <code>Web Browser login</code>.<ol>
+<li>If it's your first time visiting this page, your browser will present you with a warning about an insecure site or bad certificate. That's OK. Click on the option to add an exception for this site.</li>
+</ol>
+</li>
+<li>Enter username and password. (NOTE: If it's your first time accessing your account, please change your password by clicking on the silhouette in the upper right corner, then "Personal" in the dropdown menu).</li>
+<li>Navigate to File Station &gt; web &gt; your_folder (If you don't see the File Station icon, click on the icon of four squares in the upper left corner and select File Station from the subsequent menu).</li>
+<li>Click-and-drag files from your computer to your <code>gannet/web</code> folder.</li>
+</ol>
+</li>
+</ol>
+<p>Files that you have uploaded to your_folder are publicly viewable: http://gannet.fish.washington.edu/your_folder</p>
+<p>You can use the URLs for your files for linking in your notebook.</p>
+<h3 id="important">IMPORTANT!</h3>
+<p><em>All folders need to contain a readme file.</em></p>
+<p>The readme files should be plain text (i.e. do not create/edit the file with a word processor like Microsoft Word or LibreOffice Writer) and should describe the contents of the folder. If there are directories in the same folder as your readme file, the directory names should be listed and a brief description of their contents should be provided.</p>
+<p><em>Please refrain from using any non alpha-numeric (including spaces) in file and folder names.</em></p>
+<hr />
+<h2 id="ngs-data-management-plan">NGS Data Management Plan</h2>
+<p><strong>Raw Data</strong>  <br />
+1. As sequencing facility provides data, files are downloaded to our local NAS (owl), in the correct species subdirectory within <code>nightingales</code>.  http://owl.fish.washington.edu/nightingales/</p>
+<ol>
+<li>
+<p>MD5 checksums are generated and compared to those supplied by the sequencing facility.</p>
+</li>
+<li>
+<p>Append the generated MD5 checksums to the <code>checksums.md5</code> file. If that file does not yet exist, create it, and add the generated checksums to the new <code>checksums.md5</code> file.</p>
+</li>
+<li>
+<p>The <a href="https://docs.google.com/spreadsheets/d/1_XqIOPVHSBVGscnjzDSWUeRL7HUHXfaHxVzec-I-8Xk/edit">Nightingales Google Spreadsheet</a> is updated.</p>
+</li>
+<li>
+<p>Each library (i.e. each sample with a unique sequencing barcode) is entered in its own row.</p>
+</li>
+<li><code>SeqID</code> is the base name of the sequencing file (i.e. no file extensions like ".fq.gz" or ".gz")</li>
+<li>Each library receives a unique, incremented <code>Library_ID</code> number.</li>
+<li>Each library receives a <code>Library_name</code>; this may or may not be unique.</li>
+</ol>
+<p><strong>Backup</strong>  <br />
+* The Google Docs spreadsheet <a href="https://docs.google.com/spreadsheets/d/1_XqIOPVHSBVGscnjzDSWUeRL7HUHXfaHxVzec-I-8Xk/edit">Nightingales Google Spreadsheet</a> is backed up on a regular basis? by downloading tab-delimited file and pushing to LabDocs Repository, with the file name <code>Nightingales.tsv</code></p>
+<ul>
+<li>
+<p><code>owl/nightingales</code> is automatically backed up to two locations, both managed by Synology apps:</p>
+</li>
+<li>
+<p>Amazon Glacier: Backup task occurs weekly on Mondays at 00:00.</p>
+</li>
+<li>
+<p>CloudSync to <a href="https://drive.google.com/drive/folders/0BzKkDWZ6tIK4STQ5d2xQYVdyN28?usp=sharing">UW Google Drive</a>: Backup occurs in real-time any time new files, or changes to existing files, are detected.</p>
+</li>
+</ul>
+<p><strong>SRA Upload</strong></p>
+<ul>
+<li>Sam will upload all high-throughput sequencing data to the <a href="https://submit.ncbi.nlm.nih.gov/about/sra/">NCBI Short Read Archive (SRA)</a>. Once submitted, the BioProject accession and a link to the NCBI BioProject will be added to the <code>SRA</code> column in the <a href="https://docs.google.com/spreadsheets/d/1_XqIOPVHSBVGscnjzDSWUeRL7HUHXfaHxVzec-I-8Xk/edit">Nightingales Google Spreadsheet</a>.</li>
+</ul>
+<hr />
+<h2 id="proteomics-data-management-plan">Proteomics Data Management Plan</h2>
+<p><strong>Raw Data</strong>  <br />
+1) As sequencing facility provides data, files are downloaded to our local NAS (owl), in the root <code>phainopepla</code> directory.  http://owl.fish.washington.edu/phainopepla/ These data are organized by species, then by mass spectrometer run date (e.g. YYYY-MM-DD). For each run date, all <code>RAW</code> files (including blanks, sample, and QC files) should be included in the directory with their original names. Inside of the YYYY-MM-DD directory there <strong>should be a Readme file with the following information</strong>: Description of each file (eg. treatment, blank, etc), experimental design, link to more information.</p>
+<p>2) The <a href="https://docs.google.com/spreadsheets/d/151KPj22gf1M11otKwLfFbSjfZrY2zXDKUE1N3_mopyw/edit?usp=sharing">Spreadsheet</a> is then updated. Each "mass spectrometer run date" will be a new row in the sheet.</p>
+<hr />
+<h2 id="histology-data-management-plan">Histology Data Management Plan</h2>
+<p>1) Before histology cassettes are sent off for processing, fill out the <a href="https://docs.google.com/spreadsheets/d/1BIbDleJPEiKrmx7JwNIPwg2pM-thuZ39upmenldx4pA/edit#gid=0">Histology-databank</a> with all relevant information at the sample(tissue) level. Reserve space for blocks and slides by adding block-location and slide-location information. Each sample should have a <code>unique-sample-ID</code> which is:</p>
+<ul>
+<li><code>experiment-date_organism-label_tissue</code></li>
+</ul>
+<p>2) After histology blocks are returned, photograph blocks and slides and label such that the location of each sample(tissue) can be readily understood.</p>
+<p>3) Image each sample(tissue). Use the following convention for saving images:</p>
+<ul>
+<li>
+<p>`[FULLTIMESTAMP]-[unique-sample-ID]-[magnification].jpeg</p>
+</li>
+<li>
+<p>e.g. <code>20180924-angasi013-10x.tif</code></p>
+</li>
+</ul>
+<p>All images should be stored in the proper species directory at http://owl.fish.washington.edu/hesperornis/</p>
+<hr />
+<h1 id="data-archiving">Data Archiving</h1>
+<p>The goal for data archiving is to make your research easily understandable and reproducible in the future. It is therefore incumbent upon the researcher that, by the end of a project, care and effort is given to providing a highly organized and traceable accounting of the research that is archived in perpetuity.  At a minimum, this archive should include: raw and full processed data, complete metadata, all computer code, and any research products (manuscripts, published articles, figures, etc.).
+You will find that creating a usable data archive is much easier to do as you go, rather than waiting until the end of your project!</p>
+<h2 id="options-include">Options include</h2>
+<ul>
+<li>GitHub -&gt; Zenodo.     </li>
+<li>Figshare</li>
+<li>UW ResearchWorks</li>
+<li>Open Science Framework</li>
+</ul>
+<hr />
+<h1 id="easy-file-upload-for-collaborators">Easy file upload for Collaborators</h1>
+<p><img alt="screencast_eagle" src="https://raw.githubusercontent.com/wiki/RobertsLab/resources/img/File_upload.gif" /></p>
+<hr />
+<p>Finally, data will be most usable if it is as flexible as possible.  So an excel spreadsheet with different information on different tabs is not very flexible.  Much better to have a text file, with the data in “long form”.  This means rather than have a ton of columns, have a ton of rows.</p>
+<p>see  <br />
+Broman KW, Woo KH. (2017) Data organization in spreadsheets. PeerJ Preprints 5:e3183v1 <a href="https://doi.org/10.7287/peerj.preprints.3183v">https://doi.org/10.7287/peerj.preprints.3183v</a></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
