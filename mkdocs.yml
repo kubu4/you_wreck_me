@@ -4,7 +4,7 @@ theme:
   palette:
     scheme: slate
 nav:
-   - Alarm-Information.md
+   - ../Alarm-Information.md
    - Chemical-Standard-Operating-Protocols-(SOP).md
    - Code-of-Conduct.md
    - Computing-Hardware.md
